@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calc.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <script src="calc.js"></script>
+    <div class="calculator-grid">
+        <div id="first-input" class="span-four"></div>
+        <div id="second-input" class="span-four"></div>
+        <button class="span-two" onclick="emptyCalc();">AC</button>
+        <button onclick="pushNum(this.innerHTML);">.</button>
+        <button onclick="setOperator('/');">/</button>
+        <button onclick="pushNum('1');">1</button>
+        <button onclick="pushNum('2');">2</button>
+        <button onclick="pushNum('3');">3</button>
+        <button onclick="setOperator('+');">+</button>
+        <button onclick="pushNum('4');">4</button>
+        <button onclick="pushNum('5');">5</button>
+        <button onclick="pushNum('6');">6</button>
+        <button onclick="setOperator('-');">-</button>
+        <button onclick="pushNum('7');">7</button>
+        <button onclick="pushNum('8');">8</button>
+        <button onclick="pushNum('9');">9</button>
+        <button onclick="setOperator('x');">x</button>
+        <button class="span-two" onclick="pushNum('0')">0</button>
+        <button class="span-two" onclick="calc();">=</button>
+    </div>
+</body>
+</html>

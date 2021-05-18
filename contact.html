@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/9035e82ddd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Amenu">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class = "nav-item active" href ="">Contact Me</a>
+            <a class = "nav-item" href ="about.html">About me</a>
+            <a class = "nav-item" href ="index.html">JS Projects</a>
+        </nav>
+        <div class="dropdown">
+          <i class="fas fa-bars fa-4x dropdown"></i>
+          <nav class="dropdown-content">
+            <a class = "nav-item" href ="contact.html"">Contact Me</a>
+            <a class = "nav-item" href ="about.html">About me</a>
+            <a class = "nav-item active" href ="">JS Projects</a>
+          </nav>
+        </div>
+        <h1 id="title">Contact Me</h1>
+      </header>
+<p id="description"> This form goes straight to my personal email.</p>
+<form id="survey-form">
+  <h2> Please let me know your thoughts. </h2>
+  <div>
+  <label id="name-label"> Name:
+  <input id="name" type="text" placeholder="Example: Jane Doe" required></input></label>
+  </div>
+  <div>
+<label id="email-label"> Email:
+  <input id="email" type="email" placeholder="something@place.com" required></input></label>
+</div>
+<div>
+  </label>
+<h3>How would your rate the site?</h3>
+<select id="drop" class="item">
+    <option value="Good">Good</option>
+  <option value="Pretty Good">Pretty Good</option>
+  <option value="Ok">Ok</option>
+  <option value="Bad">Bad</option>
+</select>
+</div>
+<h3> Any other comments? </h3>
+    <textarea id="text-box" class="item">
+    </textarea>
+<div>
+    <input id="submit" type="submit" value="Submit" class="item"></input>
+</div>
+</form>
+</body>
+</html>

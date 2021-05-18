@@ -1,0 +1,48 @@
+#container {
+    height: 70vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+#current-turn{
+    font-size: 4em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.box {
+    font-size: 8em;
+    color: red;
+}
+
+#top-left{
+    border-bottom: black 10px solid;
+    border-right: black 10px solid;
+}
+#top-mid{
+    border-bottom: black 10px solid;
+    border-right: black 10px solid;
+}
+#top-right{
+    border-bottom: black 10px solid;
+}
+#mid-left{
+    border-bottom: black 10px solid;
+    border-right: black 10px solid;
+}
+#mid-mid{
+    border-bottom: black 10px solid;
+    border-right: black 10px solid;
+}
+#mid-right{
+    border-bottom: black 10px solid;
+}
+#bottom-left{
+    border-right:  black 10px solid;
+}
+#bottom-mid{
+    border-right:  black 10px solid;
+}

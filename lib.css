@@ -1,0 +1,70 @@
+body{
+    color: #f2f2ed;
+    background-image: linear-gradient(to right, #0c164f, #414a4c);
+    font-family: 'Roboto Slab', serif;
+}
+#title{
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+}
+#stats{
+    margin: 2%;
+    font-size: 3em;
+}
+#pop-up{
+    background-color: #f2f2ed;
+    height: 50vh;
+    width: 50vw;
+    color: black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin: 0%;
+    display: none;
+    visibility: hidden;
+    position: fixed;
+    box-shadow: 2px 5px;
+}
+#bookshelf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 90%; 
+    min-width: 500px;
+    min-height: 1000px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 15vw;
+    padding: 1%;
+    color: black;
+    background-color:#d99d29;
+    box-shadow: 4px 9px;
+    border-radius: 3%;
+    margin: 3%;
+}
+#new-book {
+    position: relative;
+    margin-left: 5%;
+    padding: 5px 12px;
+    height: 60px;
+    width: 150px;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 10px;
+    color: #1d89ff;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inherit;
+}
