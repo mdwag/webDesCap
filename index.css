@@ -52,7 +52,7 @@ html {
     text-decoration: none;
     font-size: 1.2em;
     color:  #EEFBFB;
-    z-index: 100000000000;
+    z-index: 1000000000000000;
 
   }
 
@@ -108,8 +108,8 @@ html {
     background: #FF6A3D;
 }
 .active{
-  background-color: #EEFBFB;
   color: #FF6A3D;
+  background-color: #EEFBFB;
 }
 
 .dropdown {
