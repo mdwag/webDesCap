@@ -124,6 +124,10 @@ html {
     visibility: hidden;
     
   }
+  div.panel {                            /* div elements with "panel" class */
+    background-image: none;
+    background-repeat: no-repeat;                          /* 10% black */
+  }
   nav{
     display: none;
     height: 90%;
@@ -135,8 +139,8 @@ html {
   }
   
   .tile{
-    font-size: 3em;
-    padding: 5%;
+    font-size: 4em;
+    padding: 3%;
   }
   h1{
     font-size: 3em;
@@ -145,6 +149,16 @@ html {
   position: relative;
   display: block;
   visibility: visible;
+}
+.mainbody {
+  grid-area: mainbody;
+  display: grid;
+  height: 70vh;
+  width: 90vw;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+  font-size: 1.5em;
 }
 }
 
