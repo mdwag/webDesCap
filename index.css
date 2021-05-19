@@ -41,7 +41,11 @@ html {
     display: block;
     visibility: visible;
     }
-
+    .dropdown:hover .nav-item{
+    display: block;
+    visibility: visible;
+    }
+    
   .nav-item{
     border: 1px solid black;
     background-color: #FF6A3D;
