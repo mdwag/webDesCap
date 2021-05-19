@@ -17,7 +17,7 @@ a{
     color: #EEFBFB;
   }
 body {
-  margin: 0;                      /* no margin at edge of content */
+  margin: 0%;                      /* no margin at edge of content */
   height: 100vh;  
   width: 100vw;               /* 100% height of parent (html) element */
 }
