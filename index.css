@@ -37,6 +37,10 @@ html {
     grid-area: head;  
     font-size: 1.5em;              /* head corresponds to name in template */
   }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    visibility: visible;
+    }
 
   .nav-item{
     border: 1px solid black;
