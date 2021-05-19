@@ -119,11 +119,14 @@ visibility: visible;
 }
 
 @media screen and (max-width: 500px) {
-.nav-item {
-  font-size: 2.5em;
-  display: none;
-  visibility: hidden;
-  
+  .dropdown-content {
+    display: block;
+    visibility: visible;
+    }
+    .nav-item{
+    display: block;
+    visibility: visible;
+    font-size: 2.5em;
 }
 nav{
   display: none;
