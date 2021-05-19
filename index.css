@@ -9,7 +9,7 @@ html {
   a:link{
     text-decoration: none;
     text-transform: none;
-    color: #EEFBFB; 
+   
   }
   a{
       text-decoration: none;
@@ -44,14 +44,16 @@ html {
     grid-area: head;  
     font-size: 1.5em;              /* head corresponds to name in template */
   }
-    
+   nav:link{
+    text-decoration: none;
+  }
   .nav-item{
     border: 1px solid black;
-    background-color: #FF6A3D;
+    background-color:white;
     padding: 4%;
     text-decoration: none;
     font-size: 1.2em;
-    color:  #EEFBFB;
+    color:  black;
     z-index: 1000000000000000;
 
   }
@@ -60,9 +62,7 @@ html {
     background-color: #EEFBFB;
     color: #FF6A3D;
   }
-  nav:link{
-    text-decoration: none;
-  }
+ 
   nav{
     border: none;
     position: fixed;
@@ -106,10 +106,6 @@ html {
   }
   .tile:hover {
     background: #FF6A3D;
-}
-.active{
-  color: #FF6A3D;
-  background-color: #EEFBFB;
 }
 
 .dropdown {
@@ -163,3 +159,4 @@ html {
   font-size: 1.5em;
 }
 }
+
