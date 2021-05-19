@@ -100,7 +100,7 @@ body{
     width: 55vw;
     height: 20vh;
   }
-  @media only screen and (max-width: 800px) {
+  @media screen and (max-width: 500px) {
     body{
       font-size: 2.5em;
     }

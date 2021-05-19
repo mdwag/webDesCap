@@ -118,7 +118,7 @@ display: block;
 visibility: visible;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
 .nav-item {
   font-size: 2.5em;
   display: none;
